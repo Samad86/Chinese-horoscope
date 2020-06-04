@@ -1,11 +1,11 @@
 body {
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
-      
-    font-size: 15px;
-    color: #333;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 
-    background-color:#caffac;
+  font-size: 15px;
+  color: #333;
+
+  background-color: #f2ffdc;
 }
 
 h1,
@@ -20,110 +20,123 @@ h6 {
 /* Container */
 
 .container {
-    width: 100%;
-    max-width: 1230px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
+  width: 100%;
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 /* Header */
 
 .header {
-    width: 100%;
+  width: 100%;
 }
 
 .header__title {
-    margin: 30px 0 50px;
+  margin: 30px 0 50px;
 
-    text-align: center;
+  text-align: center;
 
-    font-family: 'Kaushan Script', cursive;
-    font-size: 48px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 48px;
 }
 
 /* Section */
 
 .horo__img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 
-    width: 350px;
-    height: auto;
+  width: 350px;
+  height: auto;
 
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .horo__img:hover {
-    border-radius: 50%;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .section__enter {
-    margin-top: 50px;
+  margin-top: 50px;
 
-    text-align: center;
+  text-align: center;
 }
 
+/* Input */
+
 .input {
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    border: 1px solid #b3b3b3;
+  border: 1px solid #b3b3b3;
 
-    width: 20%;
-    height: 30px;
+  width: 20%;
+  height: 30px;
 
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    font-style: italic;
-    font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+
+  background-color: #f1f8ff;
 }
 
 .input:hover {
-    border-color: #868686;
-    cursor: pointer;
+  border-color: #868686;
+  cursor: pointer;
 }
 
 .input:focus {
-    outline: 0;
-    border-color: #3f3f3f;
+  outline: 0;
+  border-color: #3f3f3f;
 }
 
 .section__info {
-    text-align: center;
+  text-align: center;
 }
 
 .valYear {
-    color: red;
-    font-weight: 700;
+  color: red;
+  font-weight: 700;
 }
 
 .section__btn {
-    margin: 50px 0;
+  margin: 50px 0;
 
-    text-align: center;
+  text-align: center;
 }
 
+/* Button */
+
 .btn {
-    border: 1px solid #b3b3b3;
-    cursor: pointer;
+  border: 1px solid #b3b3b3;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 
-    width: 20%;
-    height: 30px;
+  width: 20%;
+  height: 30px;
 
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+
+  background: -moz-linear-gradient(#9cdbff, #f1f8ff);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#9cdbff), to(#f1f8ff));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9cdbff', endColorstr='#f1f8ff');
 }
 
 .btn:hover {
-    border-color: #868686;
+  border-color: #868686;
 }
