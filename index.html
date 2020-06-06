@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="style.css" type="text/css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
-        <script src="app.js" type="text/javascript"></script>
-        <title>Horoscope</title>
-    </head>
-    <body>
-        <!-- Header -->
-        <header class="header" id="header">
-            <div class="container">
-                <h1 class="header__title">Chinese horoscope</h1>
-            </div>
-        </header>
-
-        <!-- Section -->
-        <section class="section">
-            <div class="container">
-                <div class="section__img">
-                    <img class="horo__img" src="img/horo.png" alt="goro_img">
-                </div>
-                <div class="section__enter">
-                    <input class="input" type="text" id="myYear" placeholder="Enter your year of birth">
-                </div>
-                <div class="section__info">
-                    <p>Year: <span class="valYear" id="yearRes"></span></p>
-                    <p>Symbol of the year: <span class="valYear" id="zooRes"></span></p>
-                    <p>Color: <span class="valYear" id="colorRes"></span></p>
-                    <p>Element: <span class="valYear" id="elemRes"></span></p>
-                </div>
-                <div class="section__btn">
-                    <button onclick="play()" class="btn" type="button">Define the symbol of the year</button>
-                </div>
-            </div>
-        </section>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js" type="text/javascript"></script>
+    <title>Horoscope</title>
+  </head>
+  <body>
+    <!-- Section -->
+    <section class="section">
+      <div class="container">
+        <h1 class="section__title">Chinese horoscope</h1>
+        <div class="section__img">
+          <img class="horo__img" src="img/horo.png" alt="goro_img" />
+        </div>
+        <div class="section__enter">
+          <input
+            class="input"
+            type="text"
+            id="myYear"
+            placeholder="Enter your year of birth"
+          />
+        </div>
+        <div class="section__info">
+          <p>Year: <span class="valYear" id="yearRes"></span></p>
+          <p>Symbol of the year: <span class="valYear" id="zooRes"></span></p>
+          <p>Color: <span class="valYear" id="colorRes"></span></p>
+          <p>Element: <span class="valYear" id="elemRes"></span></p>
+        </div>
+        <div class="section__btn">
+          <button onclick="play()" class="btn" type="button">
+            Define the symbol of the year
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
